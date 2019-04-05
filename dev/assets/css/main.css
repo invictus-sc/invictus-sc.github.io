@@ -2392,6 +2392,12 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+		.image.center {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+		}
 
 		.image img {
 			border-radius: 5px;
@@ -3432,7 +3438,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #0000009d;
-				background-image: linear-gradient(to top, rgba(199, 0, 0, 0.8), rgba(14, 0, 0, 0.8)), url("../../images/bg.png");
+				/*background-image: linear-gradient(to top, rgba(199, 0, 0, 0.432), rgba(14, 0, 0, 0.603)), url("../../images/bg.png");*/
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3646,7 +3652,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #412e2e;
+			background-color: #df00003a;
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3726,7 +3732,7 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #ad00008c;
+			background-color: #ad000052;
 			/* #18001b */
 		}
 
@@ -3735,11 +3741,11 @@ input, select, textarea {
 			}
 			/* this is the top and bottom border around the spotlight */
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #ad00008c, 0 1px 0 0 #646464a8;
+				box-shadow: inset 0 -1px 0 0 #ad00008c, 0 1px 0 0 #000000a8;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #ad00008c, 0 1px 0 0 #646464a8;
+				box-shadow: inset 0 -1px 0 0 #ad00008c, 0 1px 0 0 #000000a8;
 			}
 
 			.wrapper.spotlight .inner {
