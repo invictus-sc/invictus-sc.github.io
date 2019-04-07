@@ -1,6 +1,9 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Play");
+
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -242,7 +245,7 @@ input, select, textarea {
 	}
 
 	p {
-	    font-family: Raleway, Helvetica, sans-serif;
+	    font-family: Play , Raleway, Helvetica, sans-serif;
 		margin: 0 0 2em 0;
 	}
 
@@ -2983,7 +2986,7 @@ input, select, textarea {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #0c0000;
+			background-color: #0c00009f;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3592,7 +3595,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #000000;
+		background-color: #000000d0;
 		margin: 6.5em 0;
 		position: relative;
 	}
@@ -4039,8 +4042,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #000000;
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(146, 0, 0, 0.623)), url("../../images/bg.png");
+			/*background-color: #000000a2;*/
+			background-image: linear-gradient(to top, rgba(175, 0, 0, 0.384),rgba(0, 0, 0, 0.514)); /*, url("../../images/bg.png");*/
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
