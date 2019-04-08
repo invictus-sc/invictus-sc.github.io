@@ -2986,7 +2986,7 @@ input, select, textarea {
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #0c00009f;
+			background-color: #0000009f;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -3057,7 +3057,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #aa000048;
+		background-color:#00000091;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3313,7 +3313,7 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #aa0000fa;
+						background: #aa0000d2;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3441,9 +3441,9 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
-				background-color: #0000009d;
-				/*background-image: linear-gradient(to top, rgba(199, 0, 0, 0.432), rgba(14, 0, 0, 0.603)), url("../../images/bg.png");*/
+				padding: 3em 0 8.25em 0 ;
+				/*background-color: #0000009d;*/
+				background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));/*, url("../../images/bg.png");*/
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3454,7 +3454,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
+				padding: 3em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
 			}
 
@@ -3467,7 +3467,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 3em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
 			}
 
@@ -3595,29 +3595,30 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #000000d0;
+		background-color: #000000b9;
 		margin: 6.5em 0;
 		position: relative;
 	}
 		
 /* THESE PROVIDE BORDERS ON THE TOP AND BOTTOM OF THE OPAQUE AREA */
 		.wrapper:before, .wrapper:after {
-		/*	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' opacity='0.25' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%230000002b' /%3E%3C/svg%3E"); */
+			/*box-shadow: inset 0 -1px 0 0 #000000cb, 0 1px 0 0 #AA00005d;*/
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' opacity='0.25' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23000000b9' /%3E%3C/svg%3E"); 
 		}
-
+		
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #00000015, 0 1px 0 0 #AA00002B;
+			/*box-shadow: inset 0 -1px 0 0 #000000cb, 0 1px 0 0 #AA00005d;*/
 			
 		}
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #00000015, 0 1px 0 0 #AA00002B;
+			/*box-shadow: inset 0 -1px 0 0 #000000cb, 0 1px 0 0 #AA00005d;*/
 		}
 
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
 			content: '';
-			display: block;7
+			display: block;
 			height: 6.5em;
 			position: absolute;
 			width: 100%;
@@ -3658,35 +3659,39 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #df00003a;
+			background-color: #38000063;
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23aa0000%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2338000063' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.style2:before {
-				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+				/*box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;*/
 			}
 
 			.wrapper.style2:after {
-				box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;
+				/*box-shadow: inset 0 -1px 0 0 #333333, 0 1px 0 0 #333333;*/
 			}
 
 		.wrapper.style3 {
-			background-color: #000000;
+			background-color: #0000005d;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23aa0000%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23aa0000' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.style3:before {
-				box-shadow: inset 0 -1px 0 0 #412e2e, 0 1px 0 0 #412e2e;
+				box-shadow: none;
+				box-sizing: content-box;
+				/*box-shadow: inset 0 -1px 0 0 #412e2e, 0 1px 0 0 #412e2e;*/
 			}
 
 			.wrapper.style3:after {
-				box-shadow: inset 0 -1px 0 0 #412e2e, 0 1px 0 0 #412e2e;
+				box-shadow: none;
+				box-sizing: content-box;
+				/*box-shadow: inset 0 -1px 0 0 #412e2e, 0 1px 0 0 #412e2e;*/
 			}
 
 		.wrapper.style4 {
@@ -3710,7 +3715,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style5:before, .wrapper.style5:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23aa0000%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23aa0000fa' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.style5:before {
@@ -3738,7 +3743,7 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #ad000052;
+			background-color: #ad00008c;
 			/* #18001b */
 		}
 
@@ -3804,15 +3809,19 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2300000048' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23000000b9' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #aa000048, 0 1px 0 0 #0000009a;
+					/* box-shadow: inset 0 1px 0 0 #000000b9, 0 1px 0 0 #000000b9;*/
+					box-shadow: none;
+					box-sizing: content-box;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #aa000048, 0 1px 0 0 #0000009a;
+					/*box-shadow: inset 0 -1px 0 0 #000000b9, 0 1px 0 0 #000000b9;*/
+					box-shadow: none;
+					box-sizing: content-box;
 				}
 
 			.wrapper.spotlight.style3 {
@@ -3824,11 +3833,15 @@ input, select, textarea {
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #38000063, 0 1px 0 0 #0000009a;
+					/* original box-shadow: inset 0 -1px 0 0 #38000063, 0 1px 0 0 #0000009a; */
+					box-shadow: none;
+					box-sizing: content-box;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #38000063, 0 1px 0 0 #0000009a;
+					/* original  box-shadow: inset 0 -1px 0 0 #38000063, 0 1px 0 0 #0000009a; */
+					box-shadow: none;
+					box-sizing: content-box;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -4043,7 +4056,7 @@ input, select, textarea {
 
 		#footer {
 			/*background-color: #000000a2;*/
-			background-image: linear-gradient(to top, rgba(175, 0, 0, 0.384),rgba(0, 0, 0, 0.514)); /*, url("../../images/bg.png");*/
+			/*background-image: linear-gradient(to top, rgba(175, 0, 0, 0.384),rgba(0, 0, 0, 0.514)); /*, url("../../images/bg.png");*/
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
